@@ -120,7 +120,7 @@ plot(avg_names, avg, type = &quot;l&quot;, main = &quot;Average Number of Steps 
 <p>The interval who have the maximum number of steps is 835.</p>
 <pre class="r"><code>countNA &lt;- sum(is.na(base$steps))</code></pre>
 <p>The total number of NAs is 2304</p>
-<p>It will be use the mean of steps to fill the NA with 0 (zero).</p>
+<p>It will be use the 0 to fill the NA in the steps.</p>
 <pre class="r"><code>base$steps[is.na(base$steps)] &lt;- 0</code></pre>
 <pre class="r"><code>#Hist of the Sum
 sum &lt;- tapply(base$steps, base$date, sum)

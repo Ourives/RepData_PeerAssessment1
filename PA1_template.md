@@ -102,7 +102,7 @@ countNA <- sum(is.na(base$steps))
 
 The total number of NAs is 2304
 
-It will be use the mean of steps to fill the NA with 0 (zero).
+It will be use the 0 to fill the NA in the steps.
 
 
 ```r
